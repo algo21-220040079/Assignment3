@@ -19,7 +19,7 @@ Calculation method
 
 4. If the MF of the day is less than the MF of the yesterday, the MF value of the day will be regarded as negative currency flow (NMF)
 
-5.MFI=100-[100/(1+PMF/NMF)]
+5. MFI=100-[100/(1+PMF/NMF)]
 
 6. The parameter N is generally set to 14 days.
 
@@ -33,8 +33,13 @@ Application rule
 
 4. When MFI<20 and a deviation occurs, it is regarded as a buy signal.
 
-
 ![Figure_1-1](https://user-images.githubusercontent.com/78809297/117569916-81261000-b0fa-11eb-923e-6bf5e6da6c79.png)
 
+![Figure_1](https://user-images.githubusercontent.com/78809297/117570252-e5959f00-b0fb-11eb-9fea-e8e3d2dd88b7.png)
+
+The following is a historical backtest of different parameter combinations and time intervals. It is not difficult to find from the figures below that the 20/80 oversold and overbought signals are not ideal. When the overbought value is changed to 90, results get obviously better. In addition, the MFI backtesting effect since 2016 is relatively good, especially when the overbought value is changed to 90, and the backtesting effect since 2000, 2005 or 2009 may not be as good as the market, reflecting the longer the time period, the MFI The worse the effect of the indicator, in fact, the MFI indicator is a technical indicator that provides short- and medium-term trading signals.
 
 
+
+
+![Figure_1-2](https://user-images.githubusercontent.com/78809297/117570237-dc0c3700-b0fb-11eb-916d-2a009a3bbf07.png)
